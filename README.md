@@ -82,7 +82,7 @@ This is the easiest way for Windows users, as it does not require Python or any 
 1.  **Download:** Navigate to the [**Releases**](https://github.com/MehdiShekari/prompt-generator-for-ai/releases) page of the GitHub repository.
 2.  **Get the File:** Download the latest version, which will be a `.zip` file.
 3.  **Extract:** Unzip the downloaded file.
-4.  **Copy:** Place the `Project Prompt Exporter.exe` file into the **root directory** of the project you want to export.
+4.  **Copy:** Place the `main.exe` file into the **root directory** of the project you want to export.
 5.  **Run:** Double-click the `.exe` file. The application window will open, and the scanning process will begin automatically.
 6.  **Result:** Once finished, a new file named `project_prompt_YYYY-MM-DD_HH-MM-SS.txt` will be created in the same directory.
 
