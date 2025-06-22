@@ -108,7 +108,7 @@ If you have made changes to the source code and want to build your own `.exe` fi
 2.  **Prepare the Icon:** Place an icon file with the `.ico` format (e.g., `icon.ico`) in the same directory as your Python script.
 3.  **Build the Executable:** Open your terminal in the project directory and run the following command (assuming your script is named `main.py`):
     ```bash
-    pyinstaller --onefile --windowed --icon="icon.ico" "main.py"
+    pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." main.py
     ```
     * `--onefile`: Bundles everything into a single executable file.
     * `--windowed` or `-w`: Prevents the black console window from appearing in the background, showing only the GUI.
