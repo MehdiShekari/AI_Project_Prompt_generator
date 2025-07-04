@@ -15,7 +15,7 @@ else:
 BINARY_EXTENSIONS = {
     '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.ico',
     '.ttf', '.woff', '.woff2', '.eot', '.otf', '.svg',
-    '.mp3', '.mp4', '.webp'
+    '.mp3', '.mp4', '.webp', 'py', 'exe,
 }
 
 def is_binary_file(file_path):
