@@ -15,7 +15,7 @@ else:
 BINARY_EXTENSIONS = {
     '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.ico',
     '.ttf', '.woff', '.woff2', '.eot', '.otf', '.svg',
-    '.mp3', '.mp4', '.webp', '.exe',
+    '.mp3', '.mp4', '.webp'
 }
 
 def is_binary_file(file_path):
@@ -101,7 +101,7 @@ class ProjectExporterGUI:
                     structure_lines.append(f"{prefix}{item}")
                     if is_binary_file(item_path):
                         self.log(f"Skipping binary file: {relative_path}", "#999999")  # gray
-                        return
+                        continue
                     content_lines.append(f"\n--- {relative_path} ---\n")
                     try:
                         with open(item_path, "r", encoding="utf-8") as f:
